@@ -2,9 +2,9 @@
 replicas: 1
 
 image:
-  repository: 192.168.1.36:5000/docker-tailscale:v0.0.1
+  repository: "192.168.1.36:5000/docker-tailscale"
   pullPolicy: IfNotPresent
-  # tag: <default to chart app version>
+  tag: "v0.0.1"
 
 # Use hostNetwork for the pod
 hostNetwork: false
